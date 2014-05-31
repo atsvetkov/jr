@@ -24,7 +24,7 @@ html {
 
 body {
 	color: #515151;
-	background-color: #fff;
+	background-color: #BED4DF;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -49,7 +49,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 3rem;
+    margin-bottom: 0px !important;
+    padding-bottom: 20px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
 }
 h2 {
 	margin-top: 1rem;
@@ -213,7 +217,7 @@ tbody tr:nth-child(odd) th {
 /* Structure and Theme */
 
 body > div {
-	border-top: 60px solid #BAF1FF;
+	border-top: 60px solid #78A3B9;
 }
 
 main, footer {
@@ -256,7 +260,7 @@ main, footer {
 }
 
 footer { 
-	background: #333;
+	background: #2D3032;
 }
 
 footer, footer h3 {
@@ -291,4 +295,12 @@ footer ul li {
 
 footer ul li:before {
 		content: "\2192 \0020"; /* caractýre UTF-8 */
+}
+
+address {
+	margin-bottom: 3em;
+}
+
+address p {
+	margin-bottom: 0 !important;
 }
